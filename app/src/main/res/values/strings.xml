@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">iPrint</string>
+    <string name="tab_text_0">Conexão</string>
+    <string name="tab_text_1">Ajuste</string>
+    <string name="tab_text_2">Produção</string>
+    <string name="tab_text_3">Mensagem</string>
+    <string name="tab_text_4">Configuração</string>
+    <string name="tab_text_5">Estátistica</string>
+</resources>
