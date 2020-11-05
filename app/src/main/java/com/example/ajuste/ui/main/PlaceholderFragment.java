@@ -52,7 +52,24 @@ public class PlaceholderFragment extends Fragment {
 
         if (this.pageViewModel.getIndex() == 1) {
             root = inflater.inflate(R.layout.conexao, container, false);
-        } else {
+
+        } else if (this.pageViewModel.getIndex() == 2) {
+            root = inflater.inflate(R.layout.ajuste, container, false);
+
+        } else if (this.pageViewModel.getIndex() == 3) {
+            root = inflater.inflate(R.layout.producao, container, false);
+
+        } else if (this.pageViewModel.getIndex() == 4) {
+            root = inflater.inflate(R.layout.mensagem, container, false);
+
+        } else if (this.pageViewModel.getIndex() == 5) {
+            root = inflater.inflate(R.layout.configuracao, container, false);
+
+        } else if (this.pageViewModel.getIndex() == 6) {
+            root = inflater.inflate(R.layout.estatistica, container, false);
+        }
+
+        else {
             root = inflater.inflate(R.layout.fragment_main, container, false);
             final TextView textView = root.findViewById(R.id.section_label);
             pageViewModel.getText().observe(this, new Observer<String>() {
