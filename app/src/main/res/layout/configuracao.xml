@@ -192,7 +192,7 @@
                         style="@style/Widget.AppCompat.EditText"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
-                        android:backgroundTint="#2196F3"
+                        android:backgroundTint="@color/colorAccent"
                         android:ems="10"
                         android:inputType="textPersonName"
                         android:textColor="@color/colorAccent" />
@@ -202,6 +202,70 @@
                 <Space
                     android:layout_width="match_parent"
                     android:layout_height="20dp" />
+
+                <LinearLayout
+                    android:id="@+id/linguas"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/borda"
+                    android:orientation="vertical"
+                    android:padding="10dp">
+
+                    <TextView
+                        android:id="@+id/tv_idioma"
+                        android:layout_width="300dp"
+                        android:layout_height="wrap_content"
+                        android:text="Idiomas"
+                        android:textAlignment="center"
+                        android:textColor="@color/colorAccent"
+                        android:textSize="24sp" />
+
+                    <LinearLayout
+                        android:id="@+id/botoes_linguas"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:orientation="horizontal">
+
+                        <Button
+                            android:id="@+id/btn_portugues"
+                            android:layout_width="150dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:text="Português" />
+
+                        <Button
+                            android:id="@+id/btn_espanhol"
+                            android:layout_width="150dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:text="Espanhol" />
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:id="@+id/botoes_linguas2"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:orientation="horizontal">
+
+                        <Button
+                            android:id="@+id/btn_ingles"
+                            android:layout_width="150dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:text="Inglês" />
+
+                        <Button
+                            android:id="@+id/btn_alemao"
+                            android:layout_width="150dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:text="Alemão" />
+                    </LinearLayout>
+
+                </LinearLayout>
             </LinearLayout>
 
         </LinearLayout>
