@@ -1,7 +1,110 @@
 <?xml version="1.0" encoding="utf-8"?>
 <androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:layout_gravity="center"
     android:background="@color/colorPrimary">
 
+    <ScrollView
+        android:id="@+id/scroll"
+        android:layout_width="729dp"
+        android:layout_height="409dp"
+        tools:layout_editor_absoluteX="1dp"
+        tools:layout_editor_absoluteY="1dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" />
+    </ScrollView>
+
+    <LinearLayout
+        android:id="@+id/geral"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal">
+
+        <LinearLayout
+            android:id="@+id/esquerda"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:padding="30dp">
+
+            <Button
+                android:id="@+id/btn_encarregado"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/btn_padrao"
+                android:padding="10dp"
+                android:text="Solicitar encarregado" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="15dp" />
+
+            <Button
+                android:id="@+id/btn_tintas"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/btn_padrao"
+                android:padding="10dp"
+                android:text="Solicitar Tintas" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="15dp" />
+
+            <Button
+                android:id="@+id/btn_producao"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/btn_padrao"
+                android:text="Solicitar Produção" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="15dp" />
+
+            <Button
+                android:id="@+id/btn_manutencao"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/btn_padrao"
+                android:padding="10dp"
+                android:text="Solicitar Manutenção" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="45dp" />
+
+            <Button
+                android:id="@+id/btn_apagar_msg"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/btn_padrao"
+                android:padding="10dp"
+                android:text="Apagar Mensagem" />
+
+        </LinearLayout>
+
+        <RelativeLayout
+            android:id="@+id/direita"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center|clip_vertical|center_vertical"
+            android:padding="15dp">
+
+            <TextView
+                android:id="@+id/textView2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Lorem ipsum dolor sit amet consectetur adipiscing elit pretium egestas, lectus ornare viverra quam imperdiet per taciti posuere, velit euismod sociosqu etiam ridiculus fusce pulvinar quis. Conubia nec ullamcorper tellus ultricies euismod aenean fermentum nostra cubilia, pretium habitant vitae montes ligula amet curabitur eget bibendum, luctus suscipit viverra facilisis nisi mauris pulvinar natoque."
+                android:textAlignment="viewStart"
+                android:textColor="@color/colorAccent"
+                android:textSize="24sp" />
+        </RelativeLayout>
+
+    </LinearLayout>
 </androidx.constraintlayout.widget.ConstraintLayout>

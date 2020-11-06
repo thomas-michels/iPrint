@@ -52,7 +52,7 @@
                         android:id="@+id/btn_limpar"
                         android:layout_width="120dp"
                         android:layout_height="wrap_content"
-                        android:background="@drawable/btn_ajuste_padrao"
+                        android:background="@drawable/btn_padrao"
                         android:text="Limpar" />
 
                     <Space
@@ -63,7 +63,7 @@
                         android:id="@+id/btn_girar"
                         android:layout_width="120dp"
                         android:layout_height="wrap_content"
-                        android:background="@drawable/btn_ajuste_padrao"
+                        android:background="@drawable/btn_padrao"
                         android:text="Girar de" />
 
                     <Space
@@ -84,7 +84,7 @@
                         android:id="@+id/btn_posicionar"
                         android:layout_width="120dp"
                         android:layout_height="wrap_content"
-                        android:background="@drawable/btn_ajuste_padrao"
+                        android:background="@drawable/btn_padrao"
                         android:text="Posicionar" />
 
                     <Space
@@ -95,7 +95,7 @@
                         android:id="@+id/btn_memoria"
                         android:layout_width="120dp"
                         android:layout_height="wrap_content"
-                        android:background="@drawable/btn_ajuste_padrao"
+                        android:background="@drawable/btn_padrao"
                         android:text="Memória" />
 
                 </LinearLayout>
@@ -129,42 +129,42 @@
                         android:id="@+id/btn_c1_e1"
                         android:layout_width="120dp"
                         android:layout_height="100dp"
-                        android:background="@drawable/estacao_ativa"
+                        android:background="@drawable/estacao_ativa_nv"
                         android:padding="5dp" />
 
                     <Button
                         android:id="@+id/btn_c1_e2"
                         android:layout_width="120dp"
                         android:layout_height="100dp"
-                        android:background="@drawable/estacao_ativa"
+                        android:background="@drawable/estacao_ativa_nv"
                         android:padding="5dp" />
 
                     <Button
                         android:id="@+id/btn_c1_e3"
                         android:layout_width="120dp"
                         android:layout_height="100dp"
-                        android:background="@drawable/estacao_ativa"
+                        android:background="@drawable/estacao_ativa_nv"
                         android:padding="5dp" />
 
                     <Button
                         android:id="@+id/btn_c1_e4"
                         android:layout_width="120dp"
                         android:layout_height="100dp"
-                        android:background="@drawable/estacao_ativa"
+                        android:background="@drawable/estacao_ativa_nv"
                         android:padding="5dp" />
 
                     <Button
                         android:id="@+id/btn_c1_e5"
                         android:layout_width="120dp"
                         android:layout_height="100dp"
-                        android:background="@drawable/estacao_ativa"
+                        android:background="@drawable/estacao_ativa_nv"
                         android:padding="5dp" />
 
                     <Button
                         android:id="@+id/btn_c1_e6"
                         android:layout_width="match_parent"
                         android:layout_height="100dp"
-                        android:background="@drawable/estacao_ativa"
+                        android:background="@drawable/estacao_ativa_nv"
                         android:padding="5dp" />
                 </LinearLayout>
 
@@ -179,42 +179,42 @@
                         android:id="@+id/btn_c2_e1"
                         android:layout_width="120dp"
                         android:layout_height="100dp"
-                        android:background="@drawable/estacao_ativa"
+                        android:background="@drawable/estacao_ativa_nv"
                         android:padding="5dp" />
 
                     <Button
                         android:id="@+id/btn_c2_e2"
                         android:layout_width="120dp"
                         android:layout_height="100dp"
-                        android:background="@drawable/estacao_ativa"
+                        android:background="@drawable/estacao_ativa_nv"
                         android:padding="5dp" />
 
                     <Button
                         android:id="@+id/btn_c2_e3"
                         android:layout_width="120dp"
                         android:layout_height="100dp"
-                        android:background="@drawable/estacao_ativa"
+                        android:background="@drawable/estacao_ativa_nv"
                         android:padding="5dp" />
 
                     <Button
                         android:id="@+id/btn_c2_e4"
                         android:layout_width="120dp"
                         android:layout_height="100dp"
-                        android:background="@drawable/estacao_ativa"
+                        android:background="@drawable/estacao_ativa_nv"
                         android:padding="5dp" />
 
                     <Button
                         android:id="@+id/btn_c2_e5"
                         android:layout_width="120dp"
                         android:layout_height="100dp"
-                        android:background="@drawable/estacao_ativa"
+                        android:background="@drawable/estacao_ativa_nv"
                         android:padding="5dp" />
 
                     <Button
                         android:id="@+id/btn_c2_e6"
                         android:layout_width="120dp"
                         android:layout_height="100dp"
-                        android:background="@drawable/estacao_ativa"
+                        android:background="@drawable/estacao_ativa_nv"
                         android:padding="5dp" />
                 </LinearLayout>
 
@@ -229,42 +229,42 @@
                         android:id="@+id/btn_c3_e1"
                         android:layout_width="120dp"
                         android:layout_height="100dp"
-                        android:background="@drawable/estacao_ativa"
+                        android:background="@drawable/estacao_ativa_nv"
                         android:padding="5dp" />
 
                     <Button
                         android:id="@+id/btn_c3_e2"
                         android:layout_width="120dp"
                         android:layout_height="100dp"
-                        android:background="@drawable/estacao_ativa"
+                        android:background="@drawable/estacao_ativa_nv"
                         android:padding="5dp" />
 
                     <Button
                         android:id="@+id/btn_c3_e3"
                         android:layout_width="120dp"
                         android:layout_height="100dp"
-                        android:background="@drawable/estacao_ativa"
+                        android:background="@drawable/estacao_ativa_nv"
                         android:padding="5dp" />
 
                     <Button
                         android:id="@+id/btn_c3_e4"
                         android:layout_width="120dp"
                         android:layout_height="100dp"
-                        android:background="@drawable/estacao_ativa"
+                        android:background="@drawable/estacao_ativa_nv"
                         android:padding="5dp" />
 
                     <Button
                         android:id="@+id/btn_c3_e5"
                         android:layout_width="120dp"
                         android:layout_height="100dp"
-                        android:background="@drawable/estacao_ativa"
+                        android:background="@drawable/estacao_ativa_nv"
                         android:padding="5dp" />
 
                     <Button
                         android:id="@+id/btn_c3_e6"
                         android:layout_width="120dp"
                         android:layout_height="100dp"
-                        android:background="@drawable/estacao_ativa"
+                        android:background="@drawable/estacao_ativa_nv"
                         android:padding="5dp" />
                 </LinearLayout>
 
@@ -279,42 +279,42 @@
                         android:id="@+id/btn_c4_e1"
                         android:layout_width="120dp"
                         android:layout_height="100dp"
-                        android:background="@drawable/estacao_ativa"
+                        android:background="@drawable/estacao_ativa_nv"
                         android:padding="5dp" />
 
                     <Button
                         android:id="@+id/btn_c4_e2"
                         android:layout_width="120dp"
                         android:layout_height="100dp"
-                        android:background="@drawable/estacao_ativa"
+                        android:background="@drawable/estacao_ativa_nv"
                         android:padding="5dp" />
 
                     <Button
                         android:id="@+id/btn_c4_e3"
                         android:layout_width="120dp"
                         android:layout_height="100dp"
-                        android:background="@drawable/estacao_ativa"
+                        android:background="@drawable/estacao_ativa_nv"
                         android:padding="5dp" />
 
                     <Button
                         android:id="@+id/btn_c4_e4"
                         android:layout_width="120dp"
                         android:layout_height="100dp"
-                        android:background="@drawable/estacao_ativa"
+                        android:background="@drawable/estacao_ativa_nv"
                         android:padding="5dp" />
 
                     <Button
                         android:id="@+id/btn_c4_e5"
                         android:layout_width="120dp"
                         android:layout_height="100dp"
-                        android:background="@drawable/estacao_ativa"
+                        android:background="@drawable/estacao_ativa_nv"
                         android:padding="5dp" />
 
                     <Button
                         android:id="@+id/btn_c4_e6"
                         android:layout_width="120dp"
                         android:layout_height="100dp"
-                        android:background="@drawable/estacao_ativa"
+                        android:background="@drawable/estacao_ativa_nv"
                         android:padding="5dp" />
                 </LinearLayout>
 
@@ -329,37 +329,37 @@
                         android:id="@+id/btn_c5_e1"
                         android:layout_width="120dp"
                         android:layout_height="100dp"
-                        android:background="@drawable/estacao_ativa" />
+                        android:background="@drawable/estacao_ativa_nv" />
 
                     <Button
                         android:id="@+id/btn_c5_e2"
                         android:layout_width="120dp"
                         android:layout_height="100dp"
-                        android:background="@drawable/estacao_ativa" />
+                        android:background="@drawable/estacao_ativa_nv" />
 
                     <Button
                         android:id="@+id/btn_c5_e3"
                         android:layout_width="120dp"
                         android:layout_height="100dp"
-                        android:background="@drawable/estacao_ativa" />
+                        android:background="@drawable/estacao_ativa_nv" />
 
                     <Button
                         android:id="@+id/btn_c5_e4"
                         android:layout_width="120dp"
                         android:layout_height="100dp"
-                        android:background="@drawable/estacao_ativa" />
+                        android:background="@drawable/estacao_ativa_nv" />
 
                     <Button
                         android:id="@+id/btn_c5_e5"
                         android:layout_width="120dp"
                         android:layout_height="100dp"
-                        android:background="@drawable/estacao_ativa" />
+                        android:background="@drawable/estacao_ativa_nv" />
 
                     <Button
                         android:id="@+id/btn_c5_e6"
                         android:layout_width="120dp"
                         android:layout_height="100dp"
-                        android:background="@drawable/estacao_ativa" />
+                        android:background="@drawable/estacao_ativa_nv" />
 
                 </LinearLayout>
 
