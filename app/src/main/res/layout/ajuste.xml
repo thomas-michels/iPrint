@@ -20,6 +20,7 @@
             android:padding="10dp">
 
             <LinearLayout
+                android:id="@+id/cima"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:orientation="horizontal"
@@ -39,7 +40,7 @@
 
                     <Button
                         android:id="@+id/btn_esquerda"
-                        android:layout_width="50dp"
+                        android:layout_width="70dp"
                         android:layout_height="match_parent"
                         android:background="@drawable/esquerda" />
 
@@ -49,7 +50,7 @@
 
                     <Button
                         android:id="@+id/btn_limpar"
-                        android:layout_width="100dp"
+                        android:layout_width="120dp"
                         android:layout_height="wrap_content"
                         android:background="@drawable/btn_ajuste_padrao"
                         android:text="Limpar" />
@@ -60,7 +61,7 @@
 
                     <Button
                         android:id="@+id/btn_girar"
-                        android:layout_width="100dp"
+                        android:layout_width="120dp"
                         android:layout_height="wrap_content"
                         android:background="@drawable/btn_ajuste_padrao"
                         android:text="Girar de" />
@@ -71,7 +72,7 @@
 
                     <Button
                         android:id="@+id/btn_direita"
-                        android:layout_width="50dp"
+                        android:layout_width="70dp"
                         android:layout_height="match_parent"
                         android:background="@drawable/direita" />
 
@@ -81,7 +82,7 @@
 
                     <Button
                         android:id="@+id/btn_posicionar"
-                        android:layout_width="100dp"
+                        android:layout_width="120dp"
                         android:layout_height="wrap_content"
                         android:background="@drawable/btn_ajuste_padrao"
                         android:text="Posicionar" />
@@ -92,10 +93,273 @@
 
                     <Button
                         android:id="@+id/btn_memoria"
-                        android:layout_width="100dp"
+                        android:layout_width="120dp"
                         android:layout_height="wrap_content"
                         android:background="@drawable/btn_ajuste_padrao"
                         android:text="Memória" />
+
+                </LinearLayout>
+
+                <Space
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/botoes"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+
+                <Space
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1" />
+
+                <LinearLayout
+                    android:id="@+id/coluna1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:padding="15dp">
+
+                    <Button
+                        android:id="@+id/btn_c1_e1"
+                        android:layout_width="120dp"
+                        android:layout_height="100dp"
+                        android:background="@drawable/estacao_ativa"
+                        android:padding="5dp" />
+
+                    <Button
+                        android:id="@+id/btn_c1_e2"
+                        android:layout_width="120dp"
+                        android:layout_height="100dp"
+                        android:background="@drawable/estacao_ativa"
+                        android:padding="5dp" />
+
+                    <Button
+                        android:id="@+id/btn_c1_e3"
+                        android:layout_width="120dp"
+                        android:layout_height="100dp"
+                        android:background="@drawable/estacao_ativa"
+                        android:padding="5dp" />
+
+                    <Button
+                        android:id="@+id/btn_c1_e4"
+                        android:layout_width="120dp"
+                        android:layout_height="100dp"
+                        android:background="@drawable/estacao_ativa"
+                        android:padding="5dp" />
+
+                    <Button
+                        android:id="@+id/btn_c1_e5"
+                        android:layout_width="120dp"
+                        android:layout_height="100dp"
+                        android:background="@drawable/estacao_ativa"
+                        android:padding="5dp" />
+
+                    <Button
+                        android:id="@+id/btn_c1_e6"
+                        android:layout_width="match_parent"
+                        android:layout_height="100dp"
+                        android:background="@drawable/estacao_ativa"
+                        android:padding="5dp" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/coluna2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:padding="15dp">
+
+                    <Button
+                        android:id="@+id/btn_c2_e1"
+                        android:layout_width="120dp"
+                        android:layout_height="100dp"
+                        android:background="@drawable/estacao_ativa"
+                        android:padding="5dp" />
+
+                    <Button
+                        android:id="@+id/btn_c2_e2"
+                        android:layout_width="120dp"
+                        android:layout_height="100dp"
+                        android:background="@drawable/estacao_ativa"
+                        android:padding="5dp" />
+
+                    <Button
+                        android:id="@+id/btn_c2_e3"
+                        android:layout_width="120dp"
+                        android:layout_height="100dp"
+                        android:background="@drawable/estacao_ativa"
+                        android:padding="5dp" />
+
+                    <Button
+                        android:id="@+id/btn_c2_e4"
+                        android:layout_width="120dp"
+                        android:layout_height="100dp"
+                        android:background="@drawable/estacao_ativa"
+                        android:padding="5dp" />
+
+                    <Button
+                        android:id="@+id/btn_c2_e5"
+                        android:layout_width="120dp"
+                        android:layout_height="100dp"
+                        android:background="@drawable/estacao_ativa"
+                        android:padding="5dp" />
+
+                    <Button
+                        android:id="@+id/btn_c2_e6"
+                        android:layout_width="120dp"
+                        android:layout_height="100dp"
+                        android:background="@drawable/estacao_ativa"
+                        android:padding="5dp" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/coluna3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:padding="15dp">
+
+                    <Button
+                        android:id="@+id/btn_c3_e1"
+                        android:layout_width="120dp"
+                        android:layout_height="100dp"
+                        android:background="@drawable/estacao_ativa"
+                        android:padding="5dp" />
+
+                    <Button
+                        android:id="@+id/btn_c3_e2"
+                        android:layout_width="120dp"
+                        android:layout_height="100dp"
+                        android:background="@drawable/estacao_ativa"
+                        android:padding="5dp" />
+
+                    <Button
+                        android:id="@+id/btn_c3_e3"
+                        android:layout_width="120dp"
+                        android:layout_height="100dp"
+                        android:background="@drawable/estacao_ativa"
+                        android:padding="5dp" />
+
+                    <Button
+                        android:id="@+id/btn_c3_e4"
+                        android:layout_width="120dp"
+                        android:layout_height="100dp"
+                        android:background="@drawable/estacao_ativa"
+                        android:padding="5dp" />
+
+                    <Button
+                        android:id="@+id/btn_c3_e5"
+                        android:layout_width="120dp"
+                        android:layout_height="100dp"
+                        android:background="@drawable/estacao_ativa"
+                        android:padding="5dp" />
+
+                    <Button
+                        android:id="@+id/btn_c3_e6"
+                        android:layout_width="120dp"
+                        android:layout_height="100dp"
+                        android:background="@drawable/estacao_ativa"
+                        android:padding="5dp" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/coluna4"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:padding="15dp">
+
+                    <Button
+                        android:id="@+id/btn_c4_e1"
+                        android:layout_width="120dp"
+                        android:layout_height="100dp"
+                        android:background="@drawable/estacao_ativa"
+                        android:padding="5dp" />
+
+                    <Button
+                        android:id="@+id/btn_c4_e2"
+                        android:layout_width="120dp"
+                        android:layout_height="100dp"
+                        android:background="@drawable/estacao_ativa"
+                        android:padding="5dp" />
+
+                    <Button
+                        android:id="@+id/btn_c4_e3"
+                        android:layout_width="120dp"
+                        android:layout_height="100dp"
+                        android:background="@drawable/estacao_ativa"
+                        android:padding="5dp" />
+
+                    <Button
+                        android:id="@+id/btn_c4_e4"
+                        android:layout_width="120dp"
+                        android:layout_height="100dp"
+                        android:background="@drawable/estacao_ativa"
+                        android:padding="5dp" />
+
+                    <Button
+                        android:id="@+id/btn_c4_e5"
+                        android:layout_width="120dp"
+                        android:layout_height="100dp"
+                        android:background="@drawable/estacao_ativa"
+                        android:padding="5dp" />
+
+                    <Button
+                        android:id="@+id/btn_c4_e6"
+                        android:layout_width="120dp"
+                        android:layout_height="100dp"
+                        android:background="@drawable/estacao_ativa"
+                        android:padding="5dp" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/coluna5"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:padding="15dp">
+
+                    <Button
+                        android:id="@+id/btn_c5_e1"
+                        android:layout_width="120dp"
+                        android:layout_height="100dp"
+                        android:background="@drawable/estacao_ativa" />
+
+                    <Button
+                        android:id="@+id/btn_c5_e2"
+                        android:layout_width="120dp"
+                        android:layout_height="100dp"
+                        android:background="@drawable/estacao_ativa" />
+
+                    <Button
+                        android:id="@+id/btn_c5_e3"
+                        android:layout_width="120dp"
+                        android:layout_height="100dp"
+                        android:background="@drawable/estacao_ativa" />
+
+                    <Button
+                        android:id="@+id/btn_c5_e4"
+                        android:layout_width="120dp"
+                        android:layout_height="100dp"
+                        android:background="@drawable/estacao_ativa" />
+
+                    <Button
+                        android:id="@+id/btn_c5_e5"
+                        android:layout_width="120dp"
+                        android:layout_height="100dp"
+                        android:background="@drawable/estacao_ativa" />
+
+                    <Button
+                        android:id="@+id/btn_c5_e6"
+                        android:layout_width="120dp"
+                        android:layout_height="100dp"
+                        android:background="@drawable/estacao_ativa" />
 
                 </LinearLayout>
 
